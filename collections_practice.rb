@@ -20,8 +20,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |letter| if letter == s
-    puts "$"
-  end
-end
+  array.each {|item| item[2] = $}
 end
