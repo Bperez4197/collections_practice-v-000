@@ -24,3 +24,4 @@ def kesha_maker(array)
     puts "$"
   end
 end
+end
